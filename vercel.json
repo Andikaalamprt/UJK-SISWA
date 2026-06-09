@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/siswa"
+    }
+  ],
+  "env": {
+    "DATABASE_URL": "@database_url"
+  }
+}
